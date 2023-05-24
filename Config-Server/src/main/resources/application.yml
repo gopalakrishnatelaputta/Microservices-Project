@@ -1,0 +1,13 @@
+server:
+  port: 8029
+spring:
+  application:
+    name: CONFIG-SERVER
+
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gopalakrishnatelaputta/mircroservices-ConfigServer
+          clone-on-start: true
